@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
 #log, #runtime_infos, #serial, #filesystem_panel, #debug_panel {
     font-family: DejaVu Sans Mono, monospace;
     font-size: 13px;
@@ -53,17 +55,40 @@
     background-color: #000;
     touch-action: none;
 }
-body {
+/* body {
     background-color: #111;
     color: #fff;
     line-height: 1.5;
     padding: 10px;
     font-family: sans-serif;
+} */
+body {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  background-color: #ffff00;
+  background-image: url("https://www.transparenttextures.com/patterns/light-honeycomb-dark.png");
+  font-family: "Comfortaa", -apple-system, Ubuntu, "Ariel Black", Verdana;
+    font-size: 1rem;
+  }
+  hr {
+    height: 0;
+    border: 0;
+    border-bottom: 1px dashed #b5e853;
+    color: #b5e853;
+  } 
+
+
+a, a:hover, a:visited
+
+a:hover {
+ color: #c9ff23;
 }
 a {
-    color: wheat;
-    text-decoration: none;
+color: #63c0f5;
+text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
+
 .phone_keyboard {
     width: 0;
     height: 0;
