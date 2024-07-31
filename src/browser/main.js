@@ -1123,6 +1123,16 @@
                 },
                 homepage: "https://amanuel.io/projects/BoneOS/",
             },
+            {
+                id: "mikeos",
+                cdrom: {
+                    url: host + "mikeos.iso",
+                    size: 67108864,
+                    async: false,
+                },
+                name: "MikeOS",
+                memory_size: 256 * 1024 * 1024,
+            },
         ];
 
         if(DEBUG)
